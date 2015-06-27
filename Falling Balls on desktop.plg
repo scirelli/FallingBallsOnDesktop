@@ -1,0 +1,32 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Falling Balls on desktop - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP4313.TMP" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/Falling Balls on desktop.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\My Documents\Visual Studio Projects\Falling Balls on desktop\FallingMain.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP4313.TMP" 
+<h3>Output Window</h3>
+Compiling...
+FallingMain.cpp
+C:\My Documents\Visual Studio Projects\Falling Balls on desktop\FallingMain.cpp(36) : warning C4005: 'WINDOW_WIDTH' : macro redefinition
+        c:\my documents\visual studio projects\falling balls on desktop\fallingmain.cpp(0) : see previous definition of 'WINDOW_WIDTH'
+C:\My Documents\Visual Studio Projects\Falling Balls on desktop\FallingMain.cpp(320) : error C2664: 'GetWindowDC' : cannot convert parameter 1 from 'struct HDESK__ *' to 'struct HWND__ *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\My Documents\Visual Studio Projects\Falling Balls on desktop\FallingMain.cpp(444) : error C2664: 'ReleaseDC' : cannot convert parameter 1 from 'struct HDESK__ *' to 'struct HWND__ *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+FallingMain.obj - 2 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
